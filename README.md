@@ -1,3 +1,4 @@
-# party
+party
+=====
 
-a [Sails](http://sailsjs.org) application
+A app for party 
