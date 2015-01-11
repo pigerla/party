@@ -1,6 +1,6 @@
 party
 =====
 
-A app for party 
+A WebApp for party
 
-Using sailsjs for back-end MVC framework
+Using sailsjs as back-end MVC framework
