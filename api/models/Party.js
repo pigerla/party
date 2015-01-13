@@ -28,6 +28,27 @@ module.exports = {
     location: {
       type: 'string',
       required: true
+    },
+
+    creator: {
+      uid: {
+        type: 'string'
+      },
+      username: {
+        type: 'string'
+      }
+    },
+
+    partner: {
+      type: 'array'
+    },
+
+    createdAt: {
+      type: "datetime"
+    },
+
+    updatedAt: {
+      type: "datetime"
     }
 
   }
