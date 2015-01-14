@@ -7,7 +7,10 @@
 
 module.exports = {
   hi: function (req, res) {
-    return res.send("Hello World");
+    return res.json(200, {
+        code: 0,
+        msg:"Hello World"
+    });
   }
 };
 
