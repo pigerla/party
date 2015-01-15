@@ -11,6 +11,10 @@ module.exports = {
         code: 0,
         msg:"Hello World"
     });
+  },
+
+  index: function(req, res){
+    res.send('Hello, world!');
   }
 };
 
