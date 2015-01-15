@@ -6,11 +6,12 @@ module.exports = function (grunt) {
         coverage: {
             src: 'test',
             options: {
-                mask: '*.test.js'
+                coverageFolder: 'coverage',
+                mask: '*.test.js',
+                root: 'api/'
             }
-        },
+        }
+    });
 
-
-
-    })
-}
+    grunt.loadNpmTasks('grunt-mocha-istanbul');
+};
